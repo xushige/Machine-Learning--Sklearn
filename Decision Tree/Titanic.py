@@ -15,7 +15,7 @@ print(data.info())
 data['Age'].fillna(data['Age'].mean(), inplace=True)
 print(data.info())
 
-#数据对齐，木桶原理，按最短的来
+#数据对齐，木桶原理，按最短的来，去除含nan的行/列
 data.dropna(axis=0, inplace=True)
 print(data.info())
 
