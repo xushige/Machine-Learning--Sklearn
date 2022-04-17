@@ -1,4 +1,3 @@
-from cv2 import line
 from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split, cross_val_score, StratifiedShuffleSplit, ShuffleSplit
 from sklearn.preprocessing import StandardScaler
